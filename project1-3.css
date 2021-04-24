@@ -1,0 +1,232 @@
+.topline{
+            width:100%;
+            height:10px;
+            margin:0;
+            background:linear-gradient(#020202,#c3cfe2);
+        }
+        .limg
+{
+        margin: 0;
+        padding: 10px 0 0 150px;
+        float: left;
+}
+
+.logoname
+{
+            float: left;
+            padding-top:75px;
+            font-size:1.4em;
+            color: crimson;
+            font-weight:bold;
+            
+        }
+        .search
+{
+            float: right;
+            padding: 75px 100px 0 0;
+        }
+        .navbar
+{
+        width:1100px;
+        height:50px;
+        border:none;
+        margin:0;
+        margin-right: auto;
+        margin-left: 190px;
+        float: left;}
+        .navbar ul{
+            padding-left: 10px;
+        }
+        .navbar li
+{
+            color:indianred;
+            list-style: none;
+            float: left;
+            padding: 0 50px 0 20px;
+            font-size: 1em;
+            margin-top: 10px;
+        }
+        .navbarbline
+{
+          width:930px;
+            height: 2px;
+            border: none;
+            margin: 0;
+            margin-left:190px ;
+            margin-right: auto;
+            float: left;
+            background-color:lightcoral;
+        }
+.banner
+{
+        margin-bottom:0; float: left;
+            width:930px;
+            height: 100px;
+            margin-top: 2px;
+            margin-left:190px;
+            background-image: url("images/pawslogo.png");
+        background-repeat: repeat-x;
+        box-shadow: 1px 2px 1px #888888;
+        }
+        .content
+{
+            margin: 0;
+            width: 930px;
+            height:760px;
+            float: left;
+        margin-left: 190px;
+            background-color:oldlace;
+            box-shadow: 1px 2px 2px 1px #888888;
+        }
+        .leftcontent
+{
+            margin: 0;
+            width: 70%;
+            float: left;
+            height: 250px;
+        }
+        .leftcontentheading h3
+{
+            margin: 0;
+            padding-right:170px;
+            padding-left: 170px;
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 30px;
+            font-size:25px;
+            font-family:monospace;
+            color: crimson;
+        }
+.leftcontentheading p
+{
+    margin: 0;
+    color: crimson; 
+    padding-left:5px;
+            padding-top:0px;
+            padding-right:0px;
+            padding-bottom:20px;
+             padding-left: 40px;
+            font-size:15px;
+            font-family:monospace;
+         text-align: justify;
+}
+.readmore{
+    margin: 0;
+    float: right;
+    color:crimson;
+    font-weight: bold;
+    font-size: 1em;
+    
+}
+
+.leftservices
+{ 
+    width:30%;
+    height: 230px;
+    margin: 10px;
+    margin-top:10px;
+    float:left;
+    background-color: blanchedalmond;
+    }
+
+.services
+{
+    width:100%;
+    height:35px;
+    background:linear-gradient(#fb5e7f,#bfe9ff);
+    margin-top:0;
+    color:aliceblue;
+    text-align:center;
+    }
+
+.services h4
+{
+    margin:0;
+    padding:10px 0 0 10px;
+}
+
+.servicesp
+{
+    width: 90%;
+    margin:10px;
+    text-align: justify;
+}
+
+p
+{
+font-size:0.9em;
+}
+
+.rightcontent{
+    width: 23%;
+    height: 700px;
+    margin-right: 20px;
+    margin-top: 20px;
+    float: right;
+}
+.quote{
+    width: 100%;
+ height: 40px;
+background:linear-gradient(red,#95201a);
+    color: cornsilk;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.quote h4{
+    padding-top: 10px;
+}
+
+
+.ourservices{width:100%;
+height:300px;
+background-color: #f4f1f1;
+margin: 0;
+margin-top: 30px;}
+
+.offerings{
+    width: 100%;
+    height: 45px;
+    background-color: none;
+    margin-0;
+    box-shadow: 0 2px 2px #888888;}
+.offerings h4{
+    padding-top: 15px;
+    text-align: center;
+    color: #bd1010;}
+.check{
+    color: #bd1010;
+}
+.offerslist li{
+    list-style: none;
+    font-size: .9em;
+    padding-left:15px 0 0 25px;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

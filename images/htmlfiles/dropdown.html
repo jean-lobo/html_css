@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style>
+		body{
+			margin: 200px;
+		}
+		.main li:hover{
+background: red;
+color: #fff;
+		}
+		.main{
+			margin: 0;
+			display: inline;
+padding: 15px 5px 15px 0;
+
+-webkit-box-shadow:1px 1px 5px rgba(0,0,0,0.15);
+-moz-box-shadow:1px 1px 5px rgba(0,0,0,0.15);
+box-shadow:1px 1px 5px rgba(0,0,0,0.15);}
+		.main li{
+			display: inline-block;
+			margin: 0;
+			padding: 15px 20px;
+			background: #fefefe;
+			margin-right: -5px;
+			position: relative;}
+.dropdown{
+position: absolute;
+top:48;
+left: 0;
+z-index: 2;
+padding: 0;
+opacity:0;
+visibility: hidden;
+
+-webkit-box-shadow:1px 1px 5px rgba(0,0,0,0.15);
+-moz-box-shadow:1px 1px 5px rgba(0,0,0,0.15);
+box-shadow:1px 1px 5px rgba(0,0,0,0.15);}
+.dropdown li{
+	color: black;
+	width: 125px;
+}
+.main li:hover .dropdown{
+opacity: 1;
+visibility: visible;
+
+}		
+</style>
+</head>
+<body>
+	<ul class="main">
+		<li>home</li>
+		<li>web development
+			<ul class="dropdown">
+		<li>web design</li>
+		<li>web development</li>
+		<li>illustrations</li>
+		</ul></li>
+
+
+		<li>corporate</li>
+		<li>ecommerce</li>
+		<li>news</li>
+		<li>tourism &amp; Travel</li>
+		<li> Contact</li>
+		
+	</ul>
+
+</body>
+</html>
